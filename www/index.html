@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Form</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+
+      <!-- Custom styles for this template -->
+      <link href="css/navbar-fixed-top.css" rel="stylesheet">
+   </head>
+   
+   <body>
+      <div class="container">
+         <div>
+           <h1>Person Form</h1><hr>
+         </div>
+
+         <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+            Error Messages.
+          </div>
+
+         <form>
+            <div class="form-group">
+               <div class="row">
+                   <div class="col-md-4">
+                    <label for="title">Title</label>
+                    <input type="title" class="form-control" id="title" placeholder="Mr.">
+                   </div>
+
+                   <div class="col-md-4">
+                    <label for="firstname">First Name</label>
+                    <input type="firstname" class="form-control" id="firstname" placeholder="Chee Kin">
+                   </div>
+
+                   <div class="col-md-4">
+                    <label for="lastname">Last Name</label>
+                    <input type="lastname" class="form-control" id="lastname" placeholder="Lim">
+                   </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="gender">Gender</label>
+                        <select class="form-control" id="gender">
+                            <option selected></option>
+                          <option>Male</option>
+                          <option>Female</option>
+                        </select>
+                      </div>
+
+                    <div class="col-md-6">
+                        <label for="dob">Date of Birth</label>
+                        <input type="dob" class="form-control" id="dob" placeholder="Date of Birth">
+                      </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-md-12">  
+                       <label for="street">Address</label>
+                       <input type="street" class="form-control" id="street" placeholder="Street">
+                   </div>  
+                </div>
+
+                <br>
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="city" class="form-control" id="city" placeholder="City">
+                  </div>
+
+                  <div class="col-md-6">
+                    <input type="state" class="form-control" id="state" placeholder="State">
+                  </div><br>
+                </div>
+
+                <br>
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="postcode" class="form-control" id="postcode" placeholder="Postcode">
+                  </div>
+                  
+
+                  <div class="col-md-6">
+                    <select class="form-control" id="formcontrol">
+                      <option selected>Country</option>
+                      <option>Malaysia</option>
+                      <option>Indonesia</option>
+                      <option>Singapore</option>
+                      <option>Thailand</option>
+                      <option>Vietnam</option>
+                    </select>
+                  </div> 
+                </div>
+     
+              </div>
+            </form>
+        
+            <br><hr>
+            
+            <button type="button" class="butang">Register</button>
+        </div>
+        
+        
+        
+
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+   </body>
+</html>
